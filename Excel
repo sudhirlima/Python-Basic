@@ -131,7 +131,7 @@ Fill color applied to header
 
 Columns auto-fitted
 
-📸 Insert screenshot of formatted table here
+
 
 Question 7: Insert and delete multiple rows and columns
 
@@ -144,9 +144,6 @@ Select multiple rows or columns
 Right-click → Insert / Delete
 
 Excel adjusts data automatically
-
-📸 Insert “Before” screenshot
-📸 Insert “After” screenshot
 
 Question 8: Use Find and Replace to update department names
 
@@ -161,8 +158,6 @@ Find: IT
 Replace with: Information Technology
 
 Click Replace All
-
-📸 Insert screenshot showing updated department names
 
 Question 9: Apply AVERAGE, MAX, MIN functions
 
@@ -179,9 +174,6 @@ Formulas Used:
 =AVERAGE(A1:A5)
 =MAX(A1:A5)
 =MIN(A1:A5)
-
-
-📸 Insert screenshot showing formulas and results
 
 Question 10: Detecting and handling missing data in Excel
 
@@ -217,4 +209,3 @@ Replace with mean/median
 
 Fill with “Not Available”
 
-📸 Insert screenshot showing blank identification
