@@ -1,0 +1,220 @@
+Question 1: What is the difference between ‘Paste’ and ‘Paste Special’ in Excel? Explain with examples.
+
+Answer:
+
+Paste copies and pastes everything from the copied cell, including values, formulas, formatting, borders, and comments.
+
+Example:
+If a cell contains the formula =A1+B1 with color formatting, using Paste will paste both the formula and formatting.
+
+Paste Special allows you to choose what exactly you want to paste—such as values only, formulas only, formats, transpose data, or mathematical operations.
+
+Example:
+
+Paste Values: Pastes only the result of a formula, not the formula itself
+
+Paste Formats: Pastes only cell formatting
+
+Transpose: Converts rows into columns
+
+Conclusion:
+Paste Special provides greater control and flexibility compared to regular Paste.
+
+Question 2: Describe the functions and usefulness of ‘Freeze Panes’ and ‘Split Panes’ in Excel.
+
+Answer:
+
+Freeze Panes keeps selected rows or columns visible while scrolling through large datasets.
+
+Usefulness:
+
+Keeps headers visible when scrolling
+
+Improves data readability
+
+Example:
+Freezing the top row keeps column headers visible while scrolling down.
+
+Split Panes divides the worksheet window into separate scrollable sections.
+
+Usefulness:
+
+Compare different parts of the same worksheet
+
+View distant data simultaneously
+
+Difference:
+Freeze Panes locks rows/columns permanently, while Split Panes creates movable viewing sections.
+
+Question 3: Difference between inserting a new row and inserting a new column. Can you insert multiple rows or columns at once?
+
+Answer:
+
+Insert Row: Adds a new horizontal row; shifts existing rows downward.
+
+Insert Column: Adds a new vertical column; shifts existing columns to the right.
+
+Yes, multiple rows or columns can be inserted at once by selecting multiple rows/columns first, then choosing Insert.
+
+Example:
+Selecting 3 rows and clicking Insert will add 3 new rows simultaneously.
+
+Question 4: What are logical functions in Excel? Give examples.
+
+Answer:
+
+Logical functions perform decision-making operations based on conditions.
+
+Examples:
+
+IF Function
+
+=IF(A1>=50,"Pass","Fail")
+
+
+Use: Determines pass/fail based on marks.
+
+AND Function
+
+=AND(A1>50,B1>50)
+
+
+Use: Checks if multiple conditions are true.
+
+OR Function
+
+=OR(A1>90,B1>90)
+
+
+Use: Returns TRUE if any condition is true.
+
+Question 5: Purpose of XLOOKUP and how it differs from VLOOKUP
+
+Answer:
+
+XLOOKUP is a modern lookup function that replaces VLOOKUP and HLOOKUP.
+
+Advantages over VLOOKUP:
+
+Searches both left and right
+
+No column index number needed
+
+Handles missing values better
+
+Faster and more flexible
+
+Example:
+
+=XLOOKUP(A2,A:A,B:B)
+
+
+VLOOKUP Limitation:
+Can only search left-to-right and breaks if columns are inserted.
+
+Question 6: Create ‘Employee Data’ worksheet (Formatted Table)
+
+Answer:
+
+Sample Data:
+Name	Age	Department
+Rahul	28	HR
+Anita	32	Finance
+Aman	25	IT
+Neha	30	Marketing
+Rohan	35	Sales
+Formatting Applied:
+
+Header row bold & center-aligned
+
+Fill color applied to header
+
+Columns auto-fitted
+
+📸 Insert screenshot of formatted table here
+
+Question 7: Insert and delete multiple rows and columns
+
+Answer:
+
+Steps:
+
+Select multiple rows or columns
+
+Right-click → Insert / Delete
+
+Excel adjusts data automatically
+
+📸 Insert “Before” screenshot
+📸 Insert “After” screenshot
+
+Question 8: Use Find and Replace to update department names
+
+Answer:
+
+Steps:
+
+Press Ctrl + H
+
+Find: IT
+
+Replace with: Information Technology
+
+Click Replace All
+
+📸 Insert screenshot showing updated department names
+
+Question 9: Apply AVERAGE, MAX, MIN functions
+
+Answer:
+
+Dataset:
+Values
+10
+25
+40
+15
+30
+Formulas Used:
+=AVERAGE(A1:A5)
+=MAX(A1:A5)
+=MIN(A1:A5)
+
+
+📸 Insert screenshot showing formulas and results
+
+Question 10: Detecting and handling missing data in Excel
+
+Answer:
+
+As a Data Scientist, missing values must be identified and handled properly.
+
+Tools Used:
+
+Go To Special
+
+Select blanks quickly
+
+ISBLANK
+
+=ISBLANK(A1)
+
+
+Returns TRUE if cell is empty.
+
+COUNTBLANK
+
+=COUNTBLANK(A1:A10)
+
+
+Counts missing values.
+
+Handling Methods:
+
+Remove blank rows
+
+Replace with mean/median
+
+Fill with “Not Available”
+
+📸 Insert screenshot showing blank identification
